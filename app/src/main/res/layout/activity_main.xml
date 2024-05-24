@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#00ACC1"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/questionText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn1"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:backgroundTint="@color/white"
+        android:text="@string/option1"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:text="@string/option2"
+        android:textColor="#000000"
+        android:id="@+id/btn2"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn3"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="@string/option3"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn4"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="@string/option4"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="22sp"
+        android:id="@+id/submit"/>
+
+
+
+
+
+</LinearLayout>
